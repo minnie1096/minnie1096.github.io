@@ -1,0 +1,432 @@
+body
+{
+    color: rgb(38, 33, 33);
+    background-color: blanchedalmond;
+}
+
+.header
+{
+    background-color: rgb(253, 245, 231);
+    /* position: fixed;
+    z-index: 1; */
+}
+
+.omnifood-img
+{
+    height: 25px;
+    width: 180px;
+}
+
+.header-link
+{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+    transition: 1s;
+    font-weight: bold;
+}
+
+.header-link:hover
+{
+    color: rgb(255, 153, 0);
+}
+
+.tryforfree
+{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-weight: bold;
+    background-color: rgb(255, 161, 45);
+    border: 10px solid rgb(255, 161, 45) ;
+    /* padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;*/
+    border-radius: 10px; 
+}
+
+.tryforfree:hover
+{
+    background-color: rgb(190, 120, 34);
+    color: white;
+}
+
+.introduction
+{
+    background-color: rgb(253, 245, 231);
+}
+
+.intro-head
+{
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.intro-text
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.starteatingwell
+{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(224, 148, 54);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.starteatingwell:hover
+{
+    background-color: rgb(190, 120, 34);
+    color: white;
+}
+
+.learnmore
+{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    transition: 1s;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.learnmore:hover
+{
+    border: 2px solid white;
+    background-color: rgb(253, 245, 231);
+    color: rgb(66, 66, 66);
+}
+
+.customer-img1
+{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid blanchedalmond;
+}
+
+.customer-img2
+{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid blanchedalmond;
+    margin-left: -20px;
+}
+
+.intro-number
+{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.intro-img
+{
+    width: 400px;
+}
+
+.featured1
+{
+    filter: grayscale();
+    width: 170px;
+    opacity: 60%;
+}
+
+.how-it-works
+{
+    font-size: medium;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.section-title
+{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.number
+{
+    font-size: 70px;
+    color: gray;
+    font-weight: 900;
+    opacity: 50%;
+}
+
+.app-screen1
+{
+    width: 200px;
+    height: 400px;
+}
+
+.app-screen-1, .app-screen-2, .app-screen-3
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-screen-1::before, .app-screen-2::before, .app-screen-3::before
+{
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -2;
+}
+
+.app-screen-1::after, .app-screen-2::after, .app-screen-3::after
+{
+    width: 235px;
+    height: 235px;
+    background-color: rgb(250, 211, 153);
+    opacity: 50%;
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.how-it-works-02
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.meals
+{
+    gap: 40px;
+}
+
+.meal-1
+{
+    box-shadow: 10px 10px 10px rgb(228, 227, 227);
+    height: 500px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.meal-1:hover
+{
+transform: translateY(-7px);
+}
+
+.meal-1-img
+{
+    height: 45%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.meal-list
+{
+    list-style: none;
+    line-height: 40px;
+    font-size: large;
+}
+
+ion-icon
+{
+    color: orange;
+    padding-right: 20px;
+}
+
+.vegetarian
+{
+    font-size: x-small;
+    background-color: rgb(122, 155, 72);
+    border-radius: 20px;
+}
+
+.vegan
+{
+    font-size: x-small;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+.paleo
+{
+    font-size: x-small;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.see-all-recipes
+{
+    text-decoration: none;
+    color: orange;
+    text-decoration: underline;
+}
+
+.see-all-recipes:hover
+{
+    text-decoration: none;
+    color: rgb(202, 131, 0);
+}
+
+.testimonial-img
+{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.gallery
+{
+    background-color: blanchedalmond;
+}
+
+.gallery-img
+{
+    width: 15rem;
+}
+
+.starter
+{
+    list-style: none;
+    line-height: 50px;
+}
+
+.starter-399
+{
+    border: 2px solid rgb(255, 246, 233);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.section-title-399
+{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.starter-699
+{
+    background-color: rgb(255, 246, 233);
+    border: 2px solid rgb(255, 246, 233);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.pricing-title
+{
+     font-size: x-large;
+     font-weight: bold;
+
+}
+
+.pricing-icon
+{
+    
+    background-color: rgb(255, 246, 233);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+
+.form
+{
+    background-color: rgb(255, 170, 43);
+    border-radius: 10px;
+}
+
+.form-input
+{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.form-img-1
+{
+    background-image: url(../omnifood/media/eating.jpg);
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+.form-img-2
+{
+    
+}
+
+.form-img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.form-b
+{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    transition: 1s;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(119, 72, 15);
+    border: 0;
+    border-radius: 10px;
+}
+
+.form-b:hover
+{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    width: 100%;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 10px;
+}
+
+.footer
+{
+    line-height: 40px;
+}
+
+.footer-link
+{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+    transition: 1s;
+}
+
+.footer-icon
+{
+    color: rgb(75, 75, 75);
+}
+
+.footer-text
+{
+    font-size: small;
+}
+
+
+.footer-text1
+{
+    line-height: 25px;
+}
